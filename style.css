@@ -21,12 +21,18 @@ body{
 
 }
 
-#jokeContainer p{
+.joke{
     text-align: center;
     font-size: 1.3rem;
     font-weight: lighter;
     color: rgb(168, 168, 168);
+    line-height: 1.6em;
+    opacity: 0;
 
+}
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;
 }
 button{
     background-color: rgb(0, 104, 106);
